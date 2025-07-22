@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Tribute to Alawode Adewale Afeez</title>
+  <title data-i18n="title">Tribute to Alawode Adewale Afeez</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
@@ -18,8 +18,8 @@
   </div>
 
   <main id="main">
-    <h1 id="title">Alawode Adewale Afeez</h1>
-    <p>Web Developer | Vision Creator | Founder of EyesightWorks</p>
+    <h1 id="title" data-i18n="name">Alawode Adewale Afeez</h1>
+    <p data-i18n="subtitle">Web Developer | Vision Creator | Founder of EyesightWorks</p>
 
     <figure id="img-div">
       <img
@@ -27,40 +27,40 @@
         src="https://via.placeholder.com/800x400?text=Alawode+Adewale"
         alt="Alawode Adewale Afeez"
       />
-      <figcaption id="img-caption">
+      <figcaption id="img-caption" data-i18n="caption">
         Founder of EyesightWorks — empowering ideas with web technology.
       </figcaption>
     </figure>
 
     <section id="tribute-info">
-      <h2>About</h2>
-      <p>
+      <h2 data-i18n="about">About</h2>
+      <p data-i18n="bio">
         Alawode Adewale Afeez is a passionate web developer focused on clean, functional, and meaningful digital experiences.
       </p>
-      <h3>Key Achievements</h3>
+      <h3 data-i18n="achievements">Key Achievements</h3>
       <ul>
-        <li>👨‍💻 Founder of EyesightWorks</li>
-        <li>🌱 Builds with GitHub & freeCodeCamp</li>
-        <li>🎓 Learning Full Stack Development</li>
-        <li>📚 Lifelong learner & contributor</li>
+        <li data-i18n="founder">👨‍💻 Founder of EyesightWorks</li>
+        <li data-i18n="github">🌱 Builds with GitHub & freeCodeCamp</li>
+        <li data-i18n="student">🎓 Learning Full Stack Development</li>
+        <li data-i18n="learner">📚 Lifelong learner & contributor</li>
       </ul>
-      <blockquote>
+      <blockquote data-i18n="quote">
         "Code with purpose. Design with clarity. Build with heart."
       </blockquote>
     </section>
 
     <footer>
       <p>
-        Learn more on
+        <span data-i18n="learnmore">Learn more on</span>
         <a id="tribute-link" href="https://github.com/Alawode-Adewale" target="_blank">GitHub</a>.
       </p>
     </footer>
   </main>
 
-  <!-- ✅ Local script -->
+  <!-- JavaScript for Translation -->
   <script src="script.js"></script>
 
-  <!-- ✅ FreeCodeCamp test suite -->
+  <!-- FreeCodeCamp test suite -->
   <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 </body>
 </html>
